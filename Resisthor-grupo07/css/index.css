@@ -42,6 +42,7 @@ body {
     top: 90px;
     opacity: 0.1;
     border: 1px solid #217BF4;
+   
 }
 
 .logo{
@@ -156,6 +157,128 @@ body {
 }
 
 /*FIM DA ESTILIZAÇÃO DO CABEÇARIO*/
+.home{
+    width: 100%;
+    height: 87.67%;
+    margin-top: 10px;
+}
+
+.home__botao-community{
+    position: absolute;
+    width: 177px;
+    height: 36px;
+    left: 135px;
+    top: 215px;
+    background: #217BF4;
+    opacity: 0.1;
+    border-radius: 8px;
+}
+
+.texto__community{
+    position: absolute;
+    width: 117px;
+    height: 12px;
+    left: 30px;
+    top: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #3a21f4;
+}
+
+.home__img{
+    position: absolute;
+    width: 585.52px;
+    height: 501.47px;
+    left: 719px;
+    top: 162px;
+}
+
+.home__texto{
+    position: absolute;
+    width: 515px;
+    height: 132px;
+    left: 135px;
+    top: 271px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    color: #0A093D;
+}
+
+.home_paragrafo{
+    position: absolute;
+    width: 491px;
+    height: 56px;
+    left: 135px;
+    top: 421px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #656464;
+}
+
+
+.home__botao-about{
+    position: absolute;
+    width: 162px;
+    height: 62px;
+    left: 135px;
+    top: 519px;
+    background: #217BF4;
+    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+    border-radius: 14px;
+}
+
+.texto__about{
+    position: absolute;
+    width: 78px;
+    height: 14px;
+    left: 42px;
+    top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;   
+}
+
+.home__botao-invite{
+    box-sizing: border-box;
+    position: absolute;
+    width: 167px;
+    height: 62px;
+    left: 315px;
+    top: 519px;
+    opacity: 0.5;
+    border: 1px solid #217BF4;
+    border-radius: 14px;
+}
+
+.texto__invite{
+    position: absolute;
+    width: 83px;
+    height: 14px;
+    left: 42px;
+    top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #217BF4;
+}
+/* inicio da estilização da HOME*/
 
 /*Eduardo Fim*/
 
