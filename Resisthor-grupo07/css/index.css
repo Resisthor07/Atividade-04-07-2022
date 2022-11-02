@@ -8,6 +8,8 @@ body {
 }
 
 /*Eduardo inicio*/
+
+/*INICIO DA ESTILIZAÇÃO DO CABEÇARIO*/
 .area__header{
     height: 13%;
     margin: 0%;
@@ -153,6 +155,7 @@ body {
     border-width: 0 0 2px 2px;
 }
 
+/*FIM DA ESTILIZAÇÃO DO CABEÇARIO*/
 
 /*Eduardo Fim*/
 
