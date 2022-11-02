@@ -56,7 +56,75 @@ body {
     line-height: 24px;
 }
 
+.texto__home{
+    position: absolute;
+    width: 41px;
+    height: 14px;
+    left: 350px;
+    margin-top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+}
 
+.texto__comunity{
+    position: absolute;
+    width: 41px;
+    height: 14px;
+    left: 423px;
+    margin-top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #656464;
+}
+.texto__seta{
+
+    position: absolute;
+    width: 1.5px;
+    height: 1.5px;
+    left: 498px;
+    margin-top: 44.38px;
+    padding: 1.5px;
+    border: 2px solid #656464;
+    transform: rotate(315deg);
+    border-width: 0 0 2px 2px;
+}
+
+.texto__blog{
+    position: absolute;
+    width: 31px;
+    height: 14px;
+    left: 547px;
+    margin-top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #656464;
+}
+
+.texto__events{
+    position: absolute;
+    width: 46px;
+    height: 14px;
+    left: 610px;
+    margin-top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #656464;
+}
 /*Eduardo Fim*/
 
 /*Tailine inicio*/
