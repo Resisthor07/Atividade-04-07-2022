@@ -6,9 +6,16 @@ body {
     width: 1440px;
     margin-left: 135px;
     margin-right: 135px;
+    background-color: blue;
 }
 
 /*Eduardo inicio*/
+.area__header{
+    display: flex;
+    height: 13%;
+    width: 100%; 
+    background-color: black;
+}
 
 /*Eduardo Fim*/
 
