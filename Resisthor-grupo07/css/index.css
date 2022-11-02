@@ -165,6 +165,86 @@ body {
 
 /*Rafael inicio*/
 
+.area__footer
+{
+    height: 485px;
+    width: 100%; 
+}
+
+.footer__superior
+{
+    height: 389px;
+    width: 100%;
+    background-color: #2b2b39;
+}
+
+.footer__inferior
+{
+    height: 96px;
+    width: 100%; 
+    background-color: #20202d;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer_logo
+{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.footer_icones
+{
+    margin: 4px;
+    width: 36px;
+    height: 36px;
+}
+
+
+.texto_footer__inferior
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #f6f6f6;
+}
+
+.texto_footer__inferior_logo
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Rafael fim*/
 
 /*Samir inicio*/
