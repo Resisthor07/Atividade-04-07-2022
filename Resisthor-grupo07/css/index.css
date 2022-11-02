@@ -27,7 +27,8 @@ body {
 
 /*Samir inicio*/
 
-.comunidade {
+.comunidade,
+.membros {
     height: 1069px;
     padding-left: 174px;
     padding-right: 174px;
@@ -49,6 +50,11 @@ body {
     border-radius: 14px;
     display: flex;
     align-content: space-around;
+    transition: all 0.3s;
+}
+
+.comunidade__opcao--background:hover {
+    background-color: rgba(0, 72, 168, 0.10);
 }
 
 .comunidade__opcao--icone {
@@ -59,7 +65,6 @@ body {
 .comunidade__opcao--organizacao-texto {
     display: flex;
     flex-direction: column;
-    /*align-content: space-around;*/
 }
 
 .comunidade__opcao--organizacao-itens {
@@ -83,7 +88,8 @@ body {
     width: 315px;
 }
 
-.comunidade__titulo--top {
+.comunidade__titulo--top,
+.membros__titulo--top {
     font-weight: 500;
     font-size: 18px;
     line-height: 18px;
@@ -92,7 +98,8 @@ body {
     margin-bottom: 0%;
 }
 
-.comunidade__titulo--principal {
+.comunidade__titulo--principal,
+.membros__titulo--principal {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -101,13 +108,113 @@ body {
     margin-top: 10px;
 }
 
-.comunidade__titulo--sub-titulo {
+.comunidade__titulo--sub-titulo,
+.membros__titulo--sub-titulo {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     color: #656464;
     text-align: center;
     width: 420px;
+}
+
+.membros {
+    height: 775px;
+    padding-left: 135px;
+    padding-right: 135px;
+    background: white;
+}
+
+.membros__titulo--sub-titulo-tamanho {
+    width: 454px;
+    height: 56px;
+}
+
+.membros__barra {
+    height: 72px;
+    width: 474px;
+    margin-top: 38px;
+    background-color: hsla(214, 91%, 54%, 0.06);
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.membros__barra--opcao {
+    background: hsla(214, 91%, 54%, 0);
+    color: #2F2C4A;
+    border-radius: 14px;
+    width: 150px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+}
+
+.membros__barra--opcao:hover {
+    box-shadow: 0px 7px 22px -6px rgba(0, 72, 168, 0.34);
+    background: #217BF4;
+    color: white;
+}
+
+.membros__barra--texto {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.membros__usuarios {
+    width: 100%;
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.membros__usuarios--retangulo {
+    width: 270px;
+    height: 316px;
+    border: 2px solid rgba(243, 243, 243, 0.5);
+    background: white;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+
+.membros__usuarios--retangulo:hover {
+    box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
+}
+
+.membros__usuarios--foto {
+    height: 171px;
+    width: 166px;
+}
+
+.membros__usuarios--texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.membros__usuarios--nome {
+    color: #2F2C4A;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 0%;
+}
+
+.membros__usuarios--nick {
+    margin: 14px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #656464;
 }
 
 /*Samir fim*/
