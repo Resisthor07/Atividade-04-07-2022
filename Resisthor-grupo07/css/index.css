@@ -4,21 +4,13 @@ body {
     background-color: white;
     height: 5736px;
     width: 1440px;
-<<<<<<< HEAD
-    padding-left: 135px;
-    padding-right: 135px;
-=======
-    margin-left: 135px;
-    margin-right: 135px;
-    background-color: blue;
->>>>>>> c0484a35c186521402abf69c8d77647f4e3c9bc1
 }
 
 /*Eduardo inicio*/
-.area__header{
+.area__header {
     display: flex;
     height: 13%;
-    width: 100%; 
+    width: 100%;
     background-color: black;
 }
 
