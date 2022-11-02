@@ -4,8 +4,9 @@ body {
     background-color: white;
     height: 5736px;
     width: 1440px;
-    margin-left: 135px;
-    margin-right: 135px;
+    padding-left: 135px;
+    padding-right: 135px;
+    background-color: blue;
 }
 
 /*Eduardo inicio*/
@@ -21,6 +22,7 @@ body {
     height: 12%;
     background-color: black;
 }
+
 /*Eduardo Fim*/
 
 /*Tailine inicio*/
@@ -32,6 +34,11 @@ body {
 /*Rafael fim*/
 
 /*Samir inicio*/
+.teste {
+    background-color: aqua;
+    width: 100%;
+    height: 10px;
+}
 
 /*Samir fim*/
 
