@@ -192,7 +192,7 @@ body {
 .footer_notificacoes
 {
     width: 339px;
-    height: 218px;
+    height: 226px;
 }
 
 .footer_notificacoes_input
@@ -200,8 +200,8 @@ body {
     width: 339px;
     height: 48px;
     border: 1px solid rgba(255, 255, 255, 0.85);
+    margin-top: 32px;
     border-radius: 12px;
-    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -218,7 +218,6 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 12px;
-    text-align: center;
     letter-spacing: 0.0125em;
     color: #717179;
 }
@@ -232,6 +231,7 @@ body {
     border: solid #FFFFFF;
     padding: 0px;
     margin: 0px;
+    cursor: pointer;
 
     font-family: 'Inter';
     font-style: normal;
@@ -272,9 +272,9 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 20px;
-
+    line-height: 20px;  
     color: #FFFFFF;
+    margin-top: 0px;
 }
 
 .texto_footer__superior
@@ -286,6 +286,7 @@ body {
     line-height: 46px;
     letter-spacing: 0.0125em;
     color: #E7E7E7;
+    margin-top: 0px;
 }
 
 .texto_footer__superior_notificacoes_1
@@ -296,6 +297,7 @@ body {
     font-size: 20px;
     line-height: 32px;
     color: #FFFFFF;
+    margin-top: 0px;
 }
 
 .texto_footer__superior_notificacoes_2
