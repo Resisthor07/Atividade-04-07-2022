@@ -5,7 +5,7 @@ body {
     background-color: white;
     height: 5736px;
     width: 1440px;
-    margin: 0%;  
+    margin: 0;
 }
 
 /*Eduardo inicio*/
@@ -67,7 +67,6 @@ body {
     height: 14px;
     margin-left: 44px;
     margin-top: 18px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -656,5 +655,87 @@ body {
 /*Samir fim*/
 
 /*Thiago inicio*/
+
+#Thiago{
+    display: flex;
+    position: relative;
+
+
+
+}
+#publicidade{
+    display: flex;
+    width: 100%;
+    background-color: #e5f0fd;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 122px;
+    padding-left: 135px;
+
+
+
+}
+
+
+.font__publicidade{
+    font-family: 'Inter', sans-serif;
+
+   }
+
+.pub-paragrafo{
+    font-size: 16px;
+    font-weight: 400;
+    flex-wrap: wrap;
+    text-align: justify;
+    color: black;
+    margin-top: 18px;
+    margin-bottom: 36px;
+    width: 341px;
+
+
+
+}
+.pub__titulo-1{
+    color: #217bf4;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+.pub__titulo-2{
+    color: #0a093d;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top: 18px;
+    width: 351px;
+
+}
+.pub__img-apst{
+    width: 147px;
+}
+.pub__img-playstore{
+    width: 145px;
+}
+
+.pub__organiza{
+    display: flex;
+    flex: 1;
+
+    flex-direction: column;
+    align-items: flex-start;
+
+
+
+}
+
+.pub__cell-phone{
+    display: flex;
+    height: 450px;
+    position: static;
+    margin-left: 0;
+    margin-bottom: 0;
+}
 
 /*Thiago fim*/
