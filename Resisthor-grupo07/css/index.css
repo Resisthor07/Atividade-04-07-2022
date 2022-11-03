@@ -290,6 +290,210 @@ body {
 
 /*Tailine inicio*/
 
+/*Início da estilização do SOBRE NÓS*/
+
+.sobre-nos{
+    width: 100%;
+    height: 576px;
+    top: 842px;
+}
+
+.titulo1{
+    position: absolute;
+    width: 142px;
+    height: 18px;
+    left: 135px;
+    top: 938.53px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: left;
+    color: #217BF4;
+}
+
+.texto1{
+    position: absolute;
+    width: 406px;
+    height: 96px;
+    left: 135px;
+    top: 966.53px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #0A093D;
+}
+
+.texto2{
+    position: absolute;
+    width: 406px;
+    height: 84px;
+    left: 135px;
+    top: 1078.73px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #656464;
+}
+
+.marcador{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 135px;
+    top: 1198.53px;
+    background: #217BF4;
+    opacity: 0.1;
+    border-radius: 10px;
+}
+
+.marcador2{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 140px;
+    top: 1203.53px;
+    background: #217BF4;
+    border-radius: 10px;
+}
+
+.list1{
+    position: absolute;
+    width: 63px;
+    height: 18px;
+    left: 165px;
+    top: 1198.53px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #171648;
+}
+
+.marcador_2{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 135px;
+    top: 1232.53px;
+    background: #217BF4;
+    opacity: 0.1;
+    border-radius: 10px;
+}
+
+.marcador2_2{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 140px;
+    top: 1237.53px;
+    background: #217BF4;
+    border-radius: 10px;
+}
+
+.list2{
+    position: absolute;
+    width: 88px;
+    height: 18px;
+    left: 165px;
+    top: 1232.53px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #171648;
+}
+
+.marcador_3{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 135px;
+    top: 1266.53px;
+    background: #217BF4;
+    opacity: 0.1;
+    border-radius: 10px;
+}
+
+.marcador2_3{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 140px;
+    top: 1271.53px;
+    background: #217BF4;
+    border-radius: 10px;
+}
+
+.list3{
+    position: absolute;
+    width: 50px;
+    height: 18px;
+    left: 165px;
+    top: 1266.53px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #171648;
+}
+
+.img3{
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 741px;
+    top: 946px;
+    background: #C4C4C4;
+    border-radius: 14px;
+}
+
+.play{
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 854px;
+    top: 1108px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.play2{
+    position: absolute;
+    width: 12px;
+    height: 14px;
+    left: 871px;
+    top: 1122px;
+    background: #2766F7;
+    border-radius: 1px;
+}
+
+.img2{
+    position: absolute;
+    width: 265px;
+    height: 238px;
+    left: 1040px;
+    top: 1146px;
+    background: #C4C4C4;
+    border-radius: 14px;
+}
+
+.img1{
+    position: absolute;
+    width: 265px;
+    height: 238px;
+    left: 1040px;
+    top: 876px;
+    background: #C4C4C4;
+    border-radius: 14px;
+}
 /*Tailine fim*/
 
 /*Rafael inicio*/
