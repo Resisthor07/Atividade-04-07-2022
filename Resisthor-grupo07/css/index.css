@@ -331,7 +331,6 @@ body {
 {
     width: 381px;
     height: 322px;
-    background: aqua;
 }
 
 .avaliacoes__alinhamento_icone_1
@@ -412,6 +411,53 @@ body {
     color: #5D5B70
 }
 
+.avaliacoes__texto_icone_6
+{
+    margin: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #217BF4;
+}
+
+.avaliacoes__texto_icone_7
+{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #0A093D;
+}
+
+.avaliacoes__texto_icone_8
+{
+    margin-top: 18px;
+    margin-bottom: 38px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #656464;
+}
+
+.avaliacoes__texto_icone_9
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
 .avaliacoes__texto_cor
 {
     color: #217BF4;
@@ -454,6 +500,20 @@ body {
     gap: 9.56px;
 }
 
+.avaliacoes__botao
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 192px;
+    height: 58px;
+    background: #217BF4;
+    box-shadow: 0px 10px 22px rgba(33, 123, 244, 0.26);
+    border: 0;
+    border-radius: 14px;
+}
+
 .avaliacoes__seta
 {
     width: 11px;
@@ -474,7 +534,7 @@ body {
     transform: rotate(45deg);
     position: absolute;
     right: -1.5px;
-    bottom: 2.25px;
+    bottom: 2px;
 }
 
 .avaliacoes__seta::before
@@ -488,7 +548,7 @@ body {
     transform: rotate(-45deg);
     position: absolute;
     right: -1.5px;
-    bottom: -2.25px;
+    bottom: -2px;
 }
 
 .avaliacoes__seta_cor
@@ -504,6 +564,21 @@ body {
 .avaliacoes__seta_cor::before
 {
     background-color: #217BF4;
+}
+
+.avaliacoes__seta_cor_b
+{
+    background-color: #FFFFFF;
+}
+
+.avaliacoes__seta_cor_b::after
+{
+    background-color: #FFFFFF;
+}
+
+.avaliacoes__seta_cor_b::before
+{
+    background-color: #FFFFFF;
 }
 
 /************************/
