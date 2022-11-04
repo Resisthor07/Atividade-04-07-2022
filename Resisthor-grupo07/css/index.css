@@ -763,6 +763,7 @@ body {
     height: 450px;
     position: static;
     margin-left: 0;
+    margin-right: 128px;
     margin-bottom: 0;
 }
 .news__titulo{
@@ -786,5 +787,13 @@ body {
     justify-content: space-between;
     margin-left: 132px;
     margin-right: 128px;
+}
+.news__line{
+    width: 39px;
+    border-bottom: 2px solid #FFAF2E;
+}
+.news__line-organiza{
+    display: flex;
+    justify-content: center;
 }
 /*Thiago fim*/
