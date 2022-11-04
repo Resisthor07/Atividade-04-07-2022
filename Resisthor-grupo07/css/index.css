@@ -697,12 +697,23 @@ body {
 }
 .pub__titulo-1{
     color: #217bf4;
+    text-align: center;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     margin-bottom: 10px;
-
+    width: 200px;
 }
+
+.pub__titulo-1:hover{
+    cursor: pointer; 
+    border-radius: 10px;
+    background-color: #217BF4;
+    color: white;
+
+    padding-left: 10px;
+   }
+
 .pub__titulo-2{
     color: #0a093d;
     font-weight: 700;
@@ -744,7 +755,18 @@ body {
 .pub__img-apst{
     width: 147px;
 }
+
+.pub__img-apst:hover{
+    cursor: pointer;
+    width: 147px;
+}
+
 .pub__img-playstore{
+    width: 145px;
+}
+
+.pub__img-playstore:hover{
+    cursor: pointer;
     width: 145px;
 }
 
@@ -753,9 +775,6 @@ body {
     flex: 1;
     flex-direction: column;
     align-items: flex-start;
-
-
-
 }
 
 .pub__cell-phone{
@@ -766,6 +785,7 @@ body {
     margin-right: 128px;
     margin-bottom: 0;
 }
+
 .news__titulo{
     display: flex;
     flex-direction: column;
@@ -776,11 +796,13 @@ body {
     background-color: white;
     margin-bottom: 130px;
 }
+
 .news__img-organiza{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
 }
+
 .news__img-organiza-secao{
     display: flex;
     flex-direction: row;
@@ -788,12 +810,17 @@ body {
     margin-left: 132px;
     margin-right: 128px;
 }
+
 .news__line{
+    margin-top: 40px;
     width: 39px;
-    border-bottom: 2px solid #FFAF2E;
+    border-top: 2px solid #FFAF2E;
 }
+
 .news__line-organiza{
     display: flex;
+    gap: 14px;
     justify-content: center;
 }
+
 /*Thiago fim*/
