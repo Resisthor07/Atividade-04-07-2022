@@ -598,19 +598,21 @@ body {
     background-color: #2b2b39;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+   
 }
 
 .footer__superior_menu
 {
+    margin-left: 145px;
     width: 668px;
     height: 226px;
     display: flex;
     justify-content: space-between;
 }
 
-.footer_notificacoes
+.footer__superior_notificacoes
 {
+    margin-left: 145px;
     width: 339px;
     height: 226px;
 }
