@@ -5,7 +5,7 @@ body {
     background-color: white;
     height: 5736px;
     width: 1440px;
-    margin: 0%;  
+    margin: 0;
 }
 
 /*Eduardo inicio*/
@@ -67,7 +67,6 @@ body {
     height: 14px;
     margin-left: 44px;
     margin-top: 18px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -951,5 +950,172 @@ body {
 /*Samir fim*/
 
 /*Thiago inicio*/
+
+#Thiago{
+    display: flex;
+    position: relative;
+
+
+
+}
+#publicidade{
+    display: flex;
+    width: 100%;
+    background-color: #e5f0fd;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 122px;
+    padding-left: 135px;
+
+
+
+}
+
+
+.font__publicidade{
+    font-family: 'Inter', sans-serif;
+
+   }
+
+.pub-paragrafo{
+    font-size: 16px;
+    font-weight: 400;
+    flex-wrap: wrap;
+    text-align: justify;
+    color: black;
+    margin-top: 18px;
+    margin-bottom: 36px;
+    width: 341px;
+
+
+
+}
+.pub__titulo-1{
+    color: #217bf4;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.pub__titulo-1:hover{
+    cursor: pointer; 
+    border-radius: 10px;
+    background-color: #217BF4;
+    color: white;
+
+    padding-left: 10px;
+   }
+
+.pub__titulo-2{
+    color: #0a093d;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top: 18px;
+    width: 351px;
+}
+.news__titulo-2{
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 74px;
+
+}
+.news__titulo-1{
+    color: #217bf4;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 0;
+
+}
+.pub__titulo-4{
+    font-size: 20px;
+    font-weight: 600;
+    width: 273px;
+
+
+}
+.news__img{
+    width: 347px;
+    border-radius: 20px;
+}
+.pub__titulo-5{
+    font-size: 16px;
+    color: #656464;
+}
+.pub__img-apst{
+    width: 147px;
+}
+
+.pub__img-apst:hover{
+    cursor: pointer;
+    width: 147px;
+}
+
+.pub__img-playstore{
+    width: 145px;
+}
+
+.pub__img-playstore:hover{
+    cursor: pointer;
+    width: 145px;
+}
+
+.pub__organiza{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pub__cell-phone{
+    display: flex;
+    height: 450px;
+    position: static;
+    margin-left: 0;
+    margin-right: 128px;
+    margin-bottom: 0;
+}
+
+.news__titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+#last__news{
+    background-color: white;
+    margin-bottom: 130px;
+}
+
+.news__img-organiza{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.news__img-organiza-secao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 132px;
+    margin-right: 128px;
+}
+
+.news__line{
+    margin-top: 40px;
+    width: 39px;
+    border-top: 2px solid #FFAF2E;
+}
+
+.news__line-organiza{
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+}
 
 /*Thiago fim*/
