@@ -287,7 +287,125 @@ body {
 /*Eduardo Fim*/
 
 /*Tailine inicio*/
+    /*INICIO estilização do SOBRE NÓS*/
+.sobre-nos{
+    display: flex;
+    height: 576px;
+    top: 842px;
+    padding-left: 135px;
+    padding-right: 135px;
+    font-style: normal;
+    margin-bottom: 130px;
+}
+.textos-sobrenos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 192.53px;
 
+}
+
+.organiza-titulo{
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+}
+.titulo1{
+    font-size: 18px;
+    color: #217BF4;
+    margin: 0px;
+}
+.titulo2{
+    font-weight: 700;
+    font-size: 36px;
+    color: #0A093D;
+    margin: 0px;
+    margin-top: 10px;
+    width: 406px;
+}
+.titulo3{
+    font-weight: 400;
+    font-size: 16px;
+    color: #656464;
+    margin: 0px;
+    margin-top: 16px;
+    width: 406px;
+    line-height: 28px;
+}
+.organiza-lista{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 36px;
+}
+.ordena-lista{
+    display: flex;
+}
+.list{
+    font-weight: 500;
+    font-size: 18px;
+    color: #171648;
+    margin: 0px;
+    margin-bottom: 16px;
+    margin-left: 12px;
+}
+.circulo-externo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    background: rgba(33, 123, 244, 10%);
+    border-radius: 10px;
+}
+.circulo-interno{
+    width: 8px;
+    height: 8px;
+    background: rgb(33, 123, 244);
+    border-radius: 10px;
+}
+.imagens-sobrenos{
+    display: flex;
+    margin-top: 124px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.imagens-sobrenos2{
+    display: flex;
+    flex-direction: column;
+    height: 496px;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.img3{
+    width: 270px;
+    height: 368px;
+    left: 741px;
+    top: 946px;
+    background: #C4C4C4;
+    border-radius: 14px;
+}
+
+.img2{
+    width: 265px;
+    height: 238px;
+    left: 1040px;
+    top: 1146px;
+    background: #C4C4C4;
+    border-radius: 14px;
+}
+.img1{
+    width: 265px;
+    height: 238px;
+    left: 1040px;
+    top: 876px;
+    background: #C4C4C4;
+    border-radius: 14px;
+}
+
+    /*FIM estilização SOBRE NÓS*/
 /*Tailine fim*/
 
 /*Rafael inicio*/
