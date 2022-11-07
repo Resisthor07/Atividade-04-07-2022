@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 body {
     font-family: 'Inter', sans-serif;
@@ -16,7 +18,7 @@ body {
 /*INICIO DA ESTILIZAÇÃO DO CABEÇARIO*/
 .area__header{
     height: 13%;
-    margin: 0%;
+    margin: 0;
     width: 100%; 
     background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
     
@@ -29,7 +31,7 @@ body {
     margin-left: 1182px;
     margin-top: 22px;
     background: #217BF4;
-    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+    box-shadow: 0 7px 22px -6px rgba(33, 123, 244, 0.34);
     border-radius: 14px;
 }
 
@@ -41,8 +43,8 @@ body {
 .linha_horizontal{
     position: absolute;
     width: 1440px;
-    height: 0px;
-    left: 0px;
+    height: 0;
+    left: 0;
     top: 90px;
     opacity: 0.1;
     border: 1px solid #217BF4;
@@ -58,7 +60,7 @@ body {
 
 .logo__organiza{
     display: flex;
-    margin: 0%;  
+    margin: 0;
 }
 
 .texto__botao{
@@ -67,12 +69,13 @@ body {
     height: 14px;
     margin-left: 44px;
     margin-top: 18px;
-    font-family: 'Inter';
+    //font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 14px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .texto__blog{
@@ -88,6 +91,7 @@ body {
     line-height: 14px;
     letter-spacing: 0.01em;
     color: #656464;
+    cursor: pointer;
 }
 
 .texto__comunity{
@@ -103,6 +107,7 @@ body {
     line-height: 14px;
     letter-spacing: 0.01em;
     color: #656464;
+    cursor: pointer;
 }
 
 .texto__events{
@@ -118,6 +123,7 @@ body {
     line-height: 14px;
     letter-spacing: 0.01em;
     color: #656464;
+    cursor: pointer;
 }
 
 .texto__home{
@@ -131,6 +137,7 @@ body {
     font-weight: 600;
     font-size: 14px;
     line-height: 14px;
+    cursor: pointer;
 }
 
 .texto__logo{   
@@ -144,6 +151,7 @@ body {
     font-weight: 600;
     font-size: 24px;
     line-height: 24px;
+    cursor: pointer;
 }
 
 .texto__seta{
@@ -157,6 +165,7 @@ body {
     border: 2px solid #656464;
     transform: rotate(315deg);
     border-width: 0 0 2px 2px;
+    cursor: pointer;
 }
 
 /*FIM DA ESTILIZAÇÃO DO CABEÇARIO*/
@@ -253,7 +262,8 @@ body {
     font-size: 14px;
     line-height: 14px;
     text-align: center;
-    color: #FFFFFF;   
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
 .home__botao-invite{
@@ -281,6 +291,7 @@ body {
     line-height: 14px;
     text-align: center;
     color: #217BF4;
+    cursor: pointer;
 }
 /* FIM da estilização da HOME*/
 
@@ -515,6 +526,7 @@ body {
     font-size: 16px;
     line-height: 16px;
     color: #4A4A56;
+    cursor: pointer;
 }
 
 .avaliacoes__texto_icone_5
@@ -573,6 +585,7 @@ body {
     text-align: center;
     letter-spacing: -0.02em;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .avaliacoes__texto_cor
@@ -828,6 +841,7 @@ body {
     letter-spacing: 0.0125em;
     color: #E7E7E7;
     margin-top: 0px;
+    cursor: pointer;
 }
 
 .texto_footer__superior_notificacoes_1
@@ -945,7 +959,10 @@ body {
     color: #217BF4;
     margin-top: 60px;
     margin-bottom: 0%;
+    cursor: pointer;
+
 }
+
 
 .comunidade__titulo--principal,
 .membros__titulo--principal {
